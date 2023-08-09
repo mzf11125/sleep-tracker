@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sleep Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sleep Tracker</h1>
+    <p>Enter your sleep data to see how your sleep patterns change over time.</p>
+    <form>
+      <label for="date">Date:</label><br>
+      <input type="date" id="date"><br>
+      <label for="hours">Hours of Sleep:</label><br>
+      <input type="number" id="hours"><br>
+      <button type="submit">Submit</button>
+      <button type="button" id="clear-button">Clear</button>
+    </form>
+    <canvas class="chart"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

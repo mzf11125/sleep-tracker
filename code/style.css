@@ -1,0 +1,89 @@
+/* Add some styling for the UI */
+body {
+  font-family: sans-serif;
+  color: #333;
+  background: linear-gradient(45deg, #e73c7e, #613ce7, #062e85, #045c48);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+ @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.container h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #555;
+}
+.container p {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777;
+}
+form input[type="date"],
+form input[type="number"] {
+  width: 200px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #777;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form input[type="date"]:focus,
+form input[type="number"]:focus {
+  outline: none;
+  border-color: #999;
+}
+form button[type="submit"] {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #00b894;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button[type="submit"]:hover {
+  background-color: #008b77;
+}
+.chart {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
