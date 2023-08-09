@@ -1,3 +1,3 @@
 # sleep-tracker
 
-Creted this project for my first hackathon, keep your expectation low. lol.
+Created this project for my first hackathon, please keep your expectation low. lol.
